@@ -92,11 +92,16 @@ Ensure you have the following installed:
 
 Provide the following in a `.env` file:
 ```env
-DB_URL=<Your MongoDB Connection String>
-JWT_SECRET=<Your Secret Key>
-EMAIL_USER=<Your Email Address>
-EMAIL_PASS=<Your Email Password>
-```
+PORT=6600
+Mongo_Db=mongodb+srv://<username>:<password>@cluster0.ro8e4sn.mongodb.net/medical_web
+# Mongo_Db_local=mongodb://localhost:27017/MedicalWeb
+
+smtp_email=<your-smtp-email>
+smtp_pass=<your-smtp-password>
+
+username=<your-username>
+password=<your-password>
+
 
 ## Contributing
 Contributions are welcome! To contribute:
